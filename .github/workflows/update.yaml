@@ -17,7 +17,7 @@ jobs:
 
       - name: Run PHP command
         env:
-          WXPUSHER_APPTOKEN: ${{ secrets.WXPUSHER_APPTOKEN }}
+          TGPUSHER_APPTOKEN: ${{ secrets.TGPUSHER_APPTOKEN }}
         run: cd ./bin && php bin.php
 
       - name: Commit changes
